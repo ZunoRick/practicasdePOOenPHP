@@ -5,13 +5,12 @@ include 'includes/header.php';
 //Definir una clase
 class Producto{
     /*public $nombre, $precio, $disponible;
-
     public function __construct(string $nombre, int $precio, bool $disponible) {
         $this->nombre = $nombre;
         $this->precio = $precio;
         $this->disponible = $disponible;
     }*/
-
+    
     //Instanciar un objeto Versión PHP8
     public function __construct(public string $nombre, public int $precio, public bool $disponible){
 
