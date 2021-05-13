@@ -1,0 +1,16 @@
+{
+    "name": "richa/introduccion-phpoop_inicio",
+    "description": "Aprendiendo Namespaces y Autoload",
+    "authors": [
+        {
+            "name": "Ricardo Zuno",
+            "email": "zunosan.ricardo506@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "App\\" : "./clases"
+        }
+    }
+}
